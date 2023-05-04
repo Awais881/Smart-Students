@@ -156,7 +156,7 @@ h1{
    
     <div class="card">
         <nav class="nav">
-            <h1>ALIGARH INSTITUTE OF TECHNOLOGY</h1>
+            <img src="../img/logo learnify-01.png" alt="">
             <button class="btn1"><a href="../index.html">Home</a></button>
     
         </nav>

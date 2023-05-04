@@ -94,6 +94,10 @@
     text-decoration: none;
     color: white;
 }
+img{
+  width: 220px;
+  
+}
 
     </style>
 </head>
@@ -103,7 +107,7 @@
     <div class="card">
       <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
         <!-- <i class="checkmark">✓</i> -->
-        <img src="../img/aligarh.png" alt="">
+        <img src="../img/edu.png" alt="">
       </div>
         <h1>Success</h1> 
         <p>Congratulations, your account has been <br> successfully created.</p> <br>
