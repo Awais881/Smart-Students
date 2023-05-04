@@ -19,9 +19,9 @@
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         position: absolute;
         top: 80px;
-        left: 320px;
+        left: 350px;
         border: none;
-       height: 715px;
+       height: 705px;
        /* height: 100vh; */
     }
     .err{
@@ -303,7 +303,7 @@ nav {
             <nav>
               <ul class="menu">
                 <li><a href="./information.jsp" target="content">Dashboard</a></li>
-                <li><a href="../htmlfiles/attendence.html" target="content">Attendence</a></li>
+                <li><a href="./attendence.jsp" target="content">Attendence</a></li>
                 <li><a href="../htmlfiles/mycourse.html" target="content"> Course</a></li>
                 <li><a  href="../htmlfiles/class.html" target="content">ClassSchedule</a></li>
                 <li><a href="../htmlfiles/feeChallan.html" target="content">FeeChallan</a></li>
