@@ -83,7 +83,7 @@
 		
 	      con.close();
 		  session.setAttribute("upicture",userpict); 
-		   out.print("<script> window.open('dashboard.jsp','_new'); </script>");
+		   out.print("<script> window.open('information.jsp','_self'); </script>");
 	 }
 	 catch(Exception e)
 	 {

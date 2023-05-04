@@ -7,6 +7,8 @@
     <title>Document</title>
     <style>
         table {
+          border: 10px solid #dddddd;
+         border-radius: 15px;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
@@ -14,14 +16,16 @@
 }
 
 td {
-  border: 1px solid #dddddd;
+  border: 10px solid #dddd;
   text-align: left;
   padding: 8px;
+
  
 }
 
 tr:nth-child(even) {
-background-color: #c9c49b;
+background-color: whitesmoke;
+
 }
 
 h2{
@@ -170,11 +174,6 @@ margin-top: -100px;
     
       
        
-             <!-- <img src='' width=200 height=200> 
-            <form action="uploadfile.jsp" method="post" enctype="multipart/form-data">
-               <input type="file" name="myfile" size=50>
-               <input type="submit" value=" Change Picture ">
-             </form>   -->
            
     
 </table>

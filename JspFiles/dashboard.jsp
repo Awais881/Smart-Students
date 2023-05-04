@@ -9,105 +9,20 @@
     <style>
           
     
-       .logo{
-        width: 80px;
-    }
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-    h4{
-        color: white;
-    }
-    nav{
-        margin: 0px;
-        display: flex;
-        justify-content: space-around;
-        background-color: #B6B6B6;
-        height: 150px;
-    
-    }
-    
-    h2{
-    
-        margin-top: 25px;
-        font-weight: bolder;
-    }
-    .profile{
-        border-radius: 50%;
-        width: 60px;
-        position: absolute;
-        top: 10px;
-        right: 20px;
       
-        
-    }
-
-    .nav-ul{
-        
-        display: flex;
-        gap: 10px;
-        justify-content:flex-end;
-        list-style: none;
-        font-weight: bolder;
-      
-    }
-    
-    li> button{
-        float: right;
-        border-radius: 10px 5px 0px 5px;
-        padding: 10px;
-        width:100px;
-        font-size: 10px;
-        font-weight: bold;
-        color: white;
-        background-color:#007bff;
-        border: none;
-    }
-    
-    .header{
-        border-radius: 10px 5px 0px 5px;
-         width: 90%;
-         margin-left: 90px;
-        background-color: #007bff;
-    }
-
-    .navbar{
-       
-       position: sticky;
-       overflow: hidden;
-       
-       
-    }
-    .name{
-        color: white;
-        font-weight: bold;
-        padding: 10px;
-        margin-top: -40px;
-        font-size: 20px;
-        position: relative;
-        top: 30px;
-    }
- 
-    
-    li:hover{
-        cursor: pointer;
-    }
-    button:hover{
-        cursor: pointer;
-    }
-    .nav-ul a{
-        color: white;
-        text-decoration: none;
-       
-    }
     
     iframe{
         width: 70%;
+        background-color: #fff;
+        border-radius: 15px;
+      
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         position: absolute;
-        top: 190px;
-        left: 350px;
-        height: 100vh;
+        top: 80px;
+        left: 320px;
+        border: none;
+       height: 715px;
+       /* height: 100vh; */
     }
     .err{
         display: flex;
@@ -117,13 +32,14 @@
       .leftBar { 
        
    background-color: #fff;
+  
   width: 25%;
   margin-left: 5px;
-  margin-top: 5px;
+  margin-top: 80px;
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   overflow-y: hidden;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 
@@ -200,6 +116,146 @@
 }  
 
 
+header {
+  
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  height: 70px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo img {
+
+  /* font-size: 1.3rem; */
+  /* font-weight: bold;
+  text-decoration: none;
+  color: #3334 */
+ width: 80px;
+   height: 75px;
+  margin-left: 20px;
+
+}
+
+nav {
+  display: flex;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu li a:hover {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+  }
+
+  .menu li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+  }
+
+  .menu li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
     </style>
 </head>
 <body>
@@ -207,7 +263,7 @@
   // Cookie cookieobject[]=request.getCookies();
   String pictname = "../UserImages/"+(String)session.getAttribute("upicture");            //"../UserImages/"+cookieobject[3].getValue();
 %> 
-    <nav>
+    <!-- <nav>
         <div><img src="../img/aligarh.png" alt="logo" class="logo"></div>
      <div>  <center><h2>ALIGARH INSTITUTE OF TECHNOLOGY, KARACHI <br> Student Portal
             </h2>
@@ -239,8 +295,30 @@
             </ul>
     
         </center>
-        </div>
-    </header> 
+        </div> -->
+        <header>
+          <div class="container">
+            <a href="#" class="logo"><img src="../img/edu.png" alt="">
+            </a>
+            <nav>
+              <ul class="menu">
+                <li><a href="./information.jsp" target="content">Dashboard</a></li>
+                <li><a href="../htmlfiles/attendence.html" target="content">Attendence</a></li>
+                <li><a href="../htmlfiles/mycourse.html" target="content"> Course</a></li>
+                <li><a  href="../htmlfiles/class.html" target="content">ClassSchedule</a></li>
+                <li><a href="../htmlfiles/feeChallan.html" target="content">FeeChallan</a></li>
+                <li><a href="../htmlfiles/attendence.html" target="content">ExamSchedule</a></li>
+                <li><a href="../htmlfiles/mycourse.html" target="content">StudyMaterial</a></li>
+                <li><a  href="../htmlfiles/class.html" target="content">Email</a></li>
+                <li><a href="../htmlfiles/feeChallan.html" target="content">Updates</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        
+        
+    <!-- </header>  -->
+
      <div class="leftBar">
         <!-- <h4>Other Pages</h4> -->
         <div><img src="<%=pictname %>'" alt="Profile" class="h4"></div>
@@ -262,7 +340,7 @@
 
 
  <center>
-    <iframe src="./information.jsp" frameborder="1"   name="content">
+    <iframe src="./information.jsp"    name="content">
 
     </iframe>
 </center> 

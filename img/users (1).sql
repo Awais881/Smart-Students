@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 26, 2023 at 10:11 PM
+-- Generation Time: May 04, 2023 at 08:37 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -35,20 +35,33 @@ CREATE TABLE `users` (
   `Gender` varchar(22) NOT NULL,
   `Usertype` varchar(22) NOT NULL,
   `password` varchar(22) NOT NULL,
-  `confirmPass` varchar(22) NOT NULL
+  `userPicture` longblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`Grno`, `Username`, `Email`, `DateofBirth`, `Gender`, `Usertype`, `password`, `confirmPass`) VALUES
-('M-100', 'Awais', 'alizayn881@gmail.com', '2003-01-09', 'Male', 'admin', '12345', '123456'),
-('wewewew', 'wweww', 'ew', '2023-01-22', 'Female', 'student', 'ewew', 'w'),
-('M-109', 'Awais', 'awais@gmail.com', '2023-01-09', 'Male', 'admin', '12345', '12345'),
+INSERT INTO `users` (`Grno`, `Username`, `Email`, `DateofBirth`, `Gender`, `Usertype`, `password`, `userPicture`) VALUES
+('M-100', 'Awais', 'alizayn881@gmail.com', '2003-01-09', 'Male', 'admin', '12345', 0x3130323533383136392e6a7067),
+('wewewew', 'wweww', 'ew', '2023-01-22', 'Female', 'student', 'ewew', ''),
+('M-109', 'Awais', 'awais@gmail.com', '2023-01-09', 'Male', 'admin', '12345', ''),
 ('M-109', 'Awais', 'awais@gmail.com', '2023-01-09', 'Male', 'admin', '', ''),
-('M-100', 'Awais1', 'admin@gmail.com', '2023-01-25', 'Male', 'admin', '123', ''),
-('M-200', 'Awais1', 'other@gmail.com', '2021-01-11', 'Male', 'employee', '1322', '');
+('M-100', 'Awais1', 'admin@gmail.com', '2023-01-25', 'Male', 'admin', '123', 0x3130323533383136392e6a7067),
+('M-200', 'Awais1', 'other@gmail.com', '2021-01-11', 'Male', 'employee', '1322', ''),
+('M-201', 'Awais1', 'admin@gmail.com', '2023-01-28', 'Male', 'employee', '12', ''),
+('M-1', 'Awais1', '', '2023-01-29', 'Male', 'admin', '12345', ''),
+('M-1', 'Awais1', '', '2023-01-29', 'Male', 'admin', '12345', ''),
+('M-12', 'Awais1', '11@gmail.com', '2023-01-30', 'Male', 'admin', '123', ''),
+('s', 's', 'admin@gmail.com', '2023-01-30', 'Male', 'student', 's', ''),
+('M-1090', 'Muhammad Awais', 'awais@gmail.com', '2023-01-30', 'Male', 'admin', '12', 0x73616869722061686d6564206368616e6e6120343232303138363031343636352e6a7067),
+('M', 'Muhammad Awais', 'alizayn881@gmail.com', '2023-01-31', 'Male', 'student', '123', ''),
+('M', 'Muhammad Awais', 'alizayn881@gmail.com', '2023-01-31', 'Male', 'student', '123', 0x576861747341707020496d61676520323032322d31312d323320617420312e33392e353720414d2e6a706567),
+('M1', 'Muhammad Awais', 'admin@gmail.com', '2023-01-06', 'Male', 'admin', '11', 0x576861747341707020496d61676520323032322d31312d323320617420312e33392e353720414d2e6a706567),
+('M-10900', 'Muhammad Awais', 'aliahmed.dev881@gmail.', '2023-01-31', 'Male', 'admin', '1', 0x576861747341707020496d61676520323032322d31312d323320617420312e33392e353720414d2e6a706567),
+('M-10011', 'Muhammad Awais', '100009159724738', '2023-01-07', 'Male', 'student', '11', ''),
+('M-10900', 'Muhammad Awais', 'admin@gmail.com', '2023-01-31', 'Male', 'student', '11', ''),
+('109', 'Muhammad Awais', 'awais@gmail.com', '2023-01-28', 'Male', 'admin', '12345', 0x3130323533383136392e6a7067);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
