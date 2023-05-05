@@ -304,7 +304,7 @@ nav {
               <ul class="menu">
                 <li><a href="./information.jsp" target="content">Dashboard</a></li>
                 <li><a href="./attendence.jsp" target="content">Attendence</a></li>
-                <li><a href="../htmlfiles/mycourse.html" target="content"> Course</a></li>
+                <li><a href="./mycourse.jsp" target="content"> Course</a></li>
                 <li><a  href="../htmlfiles/class.html" target="content">ClassSchedule</a></li>
                 <li><a href="../htmlfiles/feeChallan.html" target="content">FeeChallan</a></li>
                 <li><a href="../htmlfiles/attendence.html" target="content">ExamSchedule</a></li>

@@ -23,9 +23,9 @@
   background-color: #fff;
   background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
   margin-left: 150px;
-  border: black;
+  
 }
-.user-type{
+.subjects{
     color: black;
     font-size: large;
     margin-right: 160px;
@@ -73,7 +73,7 @@ td, th {
         <div class="user-type">
             <label for="attendence">Course :</label>
     
-            <select id="attendence" class="select" name="userType">
+            <select id="attendence" class="select" name="subjects">
               <option value="student" >Islamiat/ Pakistan Study</option>
               <option value="admin">Technical Report Writting</option>
               <option value="employee">Management</option>
