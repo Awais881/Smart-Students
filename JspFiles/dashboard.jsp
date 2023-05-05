@@ -305,12 +305,12 @@ nav {
                 <li><a href="./information.jsp" target="content">Dashboard</a></li>
                 <li><a href="./attendence.jsp" target="content">Attendence</a></li>
                 <li><a href="./mycourse.jsp" target="content"> Course</a></li>
-                <li><a  href="../htmlfiles/class.html" target="content">ClassSchedule</a></li>
-                <li><a href="../htmlfiles/feeChallan.html" target="content">FeeChallan</a></li>
-                <li><a href="../htmlfiles/attendence.html" target="content">ExamSchedule</a></li>
-                <li><a href="../htmlfiles/mycourse.html" target="content">StudyMaterial</a></li>
-                <li><a  href="../htmlfiles/class.html" target="content">Email</a></li>
-                <li><a href="../htmlfiles/feeChallan.html" target="content">Updates</a></li>
+                <li><a  href="./class.jsp" target="content">ClassSchedule</a></li>
+                <li><a href="./feeChallan.jsp" target="content">FeeChallan</a></li>
+                <li><a href="./attendence.jsp" target="content">ExamSchedule</a></li>
+                <li><a href="./mycourse.jsp" target="content">StudyMaterial</a></li>
+                <li><a  href="./class.jsp" target="content">Email</a></li>
+                <li><a href="./feeChallan.jsp" target="content">Updates</a></li>
               </ul>
             </nav>
           </div>

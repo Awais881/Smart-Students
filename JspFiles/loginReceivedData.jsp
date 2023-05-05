@@ -45,9 +45,14 @@ pageEncoding="UTF-8"%>
             session.setAttribute("upicture",rs.getString("userPicture")); 
             session.setAttribute("email", rs.getString("Email")); 
             session.setAttribute("gender", rs.getString("Gender")); 
-            response.sendRedirect("dashboard.jsp");
-              
-                
+            if (rs.getString("UserType").equals("student") )
+            {
+                response.sendRedirect("dashboard.jsp");
+
+            }
+            else if (rs.getString("UserType").equals("admin") )  {
+                response.sendRedirect("admin-dashboard.jsp");
+            }
             }
             else
             response.sendRedirect("notFound.jsp");
