@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 04, 2023 at 08:37 PM
+-- Generation Time: May 08, 2023 at 11:15 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -45,8 +45,6 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`Grno`, `Username`, `Email`, `DateofBirth`, `Gender`, `Usertype`, `password`, `userPicture`) VALUES
 ('M-100', 'Awais', 'alizayn881@gmail.com', '2003-01-09', 'Male', 'admin', '12345', 0x3130323533383136392e6a7067),
 ('wewewew', 'wweww', 'ew', '2023-01-22', 'Female', 'student', 'ewew', ''),
-('M-109', 'Awais', 'awais@gmail.com', '2023-01-09', 'Male', 'admin', '12345', ''),
-('M-109', 'Awais', 'awais@gmail.com', '2023-01-09', 'Male', 'admin', '', ''),
 ('M-100', 'Awais1', 'admin@gmail.com', '2023-01-25', 'Male', 'admin', '123', 0x3130323533383136392e6a7067),
 ('M-200', 'Awais1', 'other@gmail.com', '2021-01-11', 'Male', 'employee', '1322', ''),
 ('M-201', 'Awais1', 'admin@gmail.com', '2023-01-28', 'Male', 'employee', '12', ''),
@@ -61,7 +59,11 @@ INSERT INTO `users` (`Grno`, `Username`, `Email`, `DateofBirth`, `Gender`, `User
 ('M-10900', 'Muhammad Awais', 'aliahmed.dev881@gmail.', '2023-01-31', 'Male', 'admin', '1', 0x576861747341707020496d61676520323032322d31312d323320617420312e33392e353720414d2e6a706567),
 ('M-10011', 'Muhammad Awais', '100009159724738', '2023-01-07', 'Male', 'student', '11', ''),
 ('M-10900', 'Muhammad Awais', 'admin@gmail.com', '2023-01-31', 'Male', 'student', '11', ''),
-('109', 'Muhammad Awais', 'awais@gmail.com', '2023-01-28', 'Male', 'admin', '12345', 0x3130323533383136392e6a7067);
+('109', 'Muhammad Awais', 'awais@gmail.com', '2023-01-28', 'Male', 'admin', '12345', 0x3130323533383136392e6a7067),
+('M-1000', 'Awais1', '0', '2023-01-11', 'Male', 'employee', '00', 0x536e617050696320436f6c6c6167655f3230323132353136343233383935302e6a7067),
+('M-1004', '1', '14', '2023-01-18', 'Male', 'employee', '45', ''),
+('M-10011', 'Muhammad Awais', '11@gmail.com', '2023-01-12', 'Male', 'admin', '11', 0x536e617050696320436f6c6c6167655f3230323132353136343233383935302e6a7067),
+('M-109', 'Muhammad Awais', 'muhammadawais@gmail.co', '2023-01-06', 'Male', 'student', '12345', 0x3130323533383136392e6a7067);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
