@@ -307,10 +307,10 @@ nav {
                 <li><a href="./mycourse.jsp" target="content"> Course</a></li>
                 <li><a  href="./class.jsp" target="content">ClassSchedule</a></li>
                 <li><a href="./feeChallan.jsp" target="content">FeeChallan</a></li>
-                <li><a href="./attendence.jsp" target="content">ExamSchedule</a></li>
-                <li><a href="./mycourse.jsp" target="content">StudyMaterial</a></li>
-                <li><a  href="./class.jsp" target="content">Email</a></li>
-                <li><a href="./feeChallan.jsp" target="content">Updates</a></li>
+                <li><a href="./examSchedule.jsp" target="content">ExamSchedule</a></li>
+                <li><a href="./studyMaterial.jsp" target="content">StudyMaterial</a></li>
+                <li><a  href="./email.jsp" target="content">Email</a></li>
+                <li><a href="./update.jsp" target="content">Updates</a></li>
               </ul>
             </nav>
           </div>
