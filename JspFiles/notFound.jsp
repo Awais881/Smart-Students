@@ -149,6 +149,13 @@ h1{
     cursor: pointer;
 
 }
+.nav h1 {
+    /* width: 150px;
+   height: 100px; */
+  font-size: 35px;
+   color: white;
+   margin: 15px;
+}
 </style>
 </head>
 
@@ -156,7 +163,7 @@ h1{
    
     <div class="card">
         <nav class="nav">
-            <img src="../img/logo learnify-01.png" alt="">
+            <h1>Learnify SmartStudents</h1>
             <button class="btn1"><a href="../index.html">Home</a></button>
     
         </nav>
