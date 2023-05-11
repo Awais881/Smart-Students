@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         h2{
-    background-color:#007bff;
+          background-color: #00c78e;
     padding: 10px;
     color: white;
 }
