@@ -47,7 +47,7 @@ pageEncoding="UTF-8"%>
             session.setAttribute("gender", rs.getString("Gender")); 
             if (rs.getString("UserType").equals("student") )
             {
-                response.sendRedirect("dashboard.jsp");
+                response.sendRedirect("Student/dashboard.jsp");
 
             }
             else if (rs.getString("UserType").equals("admin") )  {

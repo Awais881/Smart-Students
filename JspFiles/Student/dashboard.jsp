@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../cssFiles/welcome.css">
+    <link rel="stylesheet" href="../../cssFiles/welcome.css">
     <title>Document</title>
     <style>
           
@@ -263,42 +263,11 @@ nav {
   // Cookie cookieobject[]=request.getCookies();
   String pictname = "../UserImages/"+(String)session.getAttribute("upicture");            //"../UserImages/"+cookieobject[3].getValue();
 %> 
-    <!-- <nav>
-        <div><img src="../img/aligarh.png" alt="logo" class="logo"></div>
-     <div>  <center><h2>ALIGARH INSTITUTE OF TECHNOLOGY, KARACHI <br> Student Portal
-            </h2>
-        </center>
-    </div> 
-    
-   <div class="head-sec"> 
-    
-    <img src="../img/profile.jfif" alt="profile" class="profile">
-   </div>
-    </nav>
-     <header class="header">
-        <p class="name"> 
-    
-  
-      <center>
-        <div class="navbar">
-            <ul class="nav-ul">
-                <li><button>  <a href="./information.jsp" target="content"> Dashboard</a></button></li>
-                <li><button> <a href="../htmlfiles/attendence.html" target="content"> Attendence</a></button></li>
-                <li><button>  <a href="../htmlfiles/mycourse.html" target="content"> My Course</a></button></li>
-                <li><button>  <a href="../htmlfiles/class.html" target="content"> Class Schedule</a></button></li>
-                <li><button>  <a href="../htmlfiles/feeChallan.html" target="content"> Fee Challan</a></button></li>
-
-                <li><button>  Exam Schedule  </button></li>
-                <li><button>  Study Material</button></li>
-                <li><button> Email</button></li>
-                <li><button> Notification</button></li>
-            </ul>
-    
-        </center>
-        </div> -->
+ 
+        
         <header>
           <div class="container">
-            <a href="#" class="logo"><img src="../img/edu.png" alt="">
+            <a href="#" class="logo"><img src="../../img/edu (2).png" alt="">
             </a>
             <nav>
               <ul class="menu">
@@ -320,7 +289,7 @@ nav {
     <!-- </header>  -->
 
      <div class="leftBar">
-        <!-- <h4>Other Pages</h4> -->
+    
         <div><img src="<%=pictname %>'" alt="Profile" class="h4"></div>
         <span><%=  (String) session.getAttribute("userName")  %></span>
         <ul>

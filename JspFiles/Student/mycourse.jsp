@@ -63,7 +63,7 @@ button:hover, a:hover {
        <div class="container">
 <div>
        <div class="card">
-        <img src="../img/Course Teacher Profiles/sir masood.PNG" alt="sir masood" style="width:100%">
+        <img src="../../img/Course Teacher Profiles/sir masood.PNG" alt="sir masood" style="width:100%">
         <h1>Muhammad Masood </h1>
         <p class="title">WEB PROGRAMMING WITH JAVA-CIT-303 3 Credit Hour (Practical)</p>
         <!-- <p>Harvard University</p> -->
@@ -81,7 +81,7 @@ button:hover, a:hover {
 </div> 
 <div>
     <div class="card">
-        <img src="../img/Course Teacher Profiles/sir aizaz.PNG" alt="sir aizaz" style="width:100%">
+        <img src="../../img/Course Teacher Profiles/sir aizaz.PNG" alt="sir aizaz" style="width:100%">
         <h1>Azaz  Ahmed </h1> <br>
         <p class="title">GRAPHICS DESIGNING -CIT-344 4 Credit Hour (Practical)</p>
         <!-- <p>Harvard University</p> --> <br>
@@ -101,7 +101,7 @@ button:hover, a:hover {
 
 <div>
     <div class="card">
-        <img src="../img/Course Teacher Profiles/sir sajid.PNG" alt="sir sajid" style="width:100%">
+        <img src="../../img/Course Teacher Profiles/sir sajid.PNG" alt="sir sajid" style="width:100%">
         <h1>Muhammad Sajid </h1>
         <p class="title">NETWORK ADMINISTRATION-CIT-324 4 Credit Hour (Theory)</p>
         <!-- <p>Harvard University</p> -->
@@ -126,7 +126,7 @@ button:hover, a:hover {
 
     <div>
         <div class="card">
-            <img src="../img/Course Teacher Profiles/mys.PNG" alt="mys" style="width:100%">
+            <img src="../../img/Course Teacher Profiles/mys.PNG" alt="mys" style="width:100%">
             <h1>Muhammad Yousuf-Siddiqui</h1>
             <p class="title">MANAGEMENT-MGT-331 1 Credit Hour (Theory)</p>
             <!-- <p>Harvard University</p> -->
@@ -145,7 +145,7 @@ button:hover, a:hover {
 
     <div>
         <div class="card">
-            <img src="../img/Course Teacher Profiles/sir zafar.PNG" alt="sir zafar" style="width:100%">
+            <img src="../../img/Course Teacher Profiles/sir zafar.PNG" alt="sir zafar" style="width:100%">
             <h1>Syed Zafar-Nadeem </h1>
             <p class="title">OPERATING SYSTEM-CIT-333 3 Credit Hour (Practical)</p>
             <!-- <p>Harvard University</p> -->
@@ -164,7 +164,7 @@ button:hover, a:hover {
 
     <div>
         <div class="card">
-            <img src="../img/Course Teacher Profiles/sir akbar.PNG" alt="sir sajid" style="width:100%">
+            <img src="../../img/Course Teacher Profiles/sir akbar.PNG" alt="sir sajid" style="width:100%">
             <h1>Ghulam Akbar </h1>
             <p class="title">PC SYSTEM & PERIPHERAL REPAIRS-CIT-352 2 Credit Hour (Practical)</p>
             <!-- <p>Harvard University</p> -->
