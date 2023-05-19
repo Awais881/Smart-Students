@@ -102,19 +102,19 @@ margin-top: -100px;
 <body>
   <%
   // Cookie cookieobject[]=request.getCookies();
- String pictname = "../../UserImages/"+(String)session.getAttribute("upicture");        
+  String pictname = "../../UserImages/"+(String)session.getAttribute("upicture");       
 %> 
     <h2>Profile Information </h2>
+ 
     <center>
-     
   <table>
-
+ 
     <tr>
-      <td>Father Name</td>
-      <td class="td-left">Nazir Ahmed</td>
+      <td>ID</td>
+      <td class="td-left"><%=  (String) session.getAttribute("uid")  %></td>
       <td rowspan="10" class="profile-pic">
        
-        <img src="<%= pictname %>" alt=""> 
+        <img src='<%= pictname %>' alt=""> 
         <form action="../uploadfile.jsp" method="post" enctype="multipart/form-data">
            <input type="file" name="userpict" size=50> 
   <br><br>
@@ -126,46 +126,34 @@ margin-top: -100px;
       
     </tr>
     <tr>
-      <td>Program</td>
-      <td class="td-left">DAE COMPUTER INFORMATION TECHNOLOGY (M)</td>
+      <td>Name</td>
+      <td class="td-left"><%=  (String) session.getAttribute("userName")  %></td>
      
     </tr>
     <tr>
-      <td>Batch</td>
-      <td class="td-left">CIT-2020-MOR</td>
+      <td>Email</td>
+      <td class="td-left"><%=  (String) session.getAttribute("email")  %></td>
      
     </tr>
     <tr>
-      <td>Year</td>
-      <td>3RD YEAR</td>
+      <td>Gender</td>
+      <td><%=  (String) session.getAttribute("gender")  %></td>
     
      
     </tr>
+
     <tr>
-      <td>Section</td>
-      <td>B</td>
+      <td>UserType</td>
+      <td class="td-left"><%=  (String) session.getAttribute("userType")  %></td>
      
     </tr>
-    <tr>
-      <td>Registration no</td>
-      <td class="td-left">AIT-CIT</td>
+   
+      <tr>
+        <td>DOB</td>
+        <td><%= (String) session.getAttribute("dob")  %></td>
+       
+      </tr>
      
-    </tr>
-    <tr>
-        <td>Gr no</td>
-        <td><%=  (String) session.getAttribute("uid")  %></td>
-       
-      </tr>
-      <tr>
-        <td>Gender</td>
-        <td><%=  (String) session.getAttribute("gender")  %></td>
-       
-      </tr>
-      <tr>
-        <td>Email</td>
-        <td class="td-left"><%=  (String) session.getAttribute("email")  %></td>
-       
-      </tr>
       <tr>
         <td>Contact</td>
         <td class="td-left">03172599245</td>

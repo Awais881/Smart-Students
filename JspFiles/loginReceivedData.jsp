@@ -40,6 +40,7 @@ pageEncoding="UTF-8"%>
 
            {
             session.setAttribute("uid", rs.getString("Grno")); 
+            session.setAttribute("dob", rs.getString("Dateofbirth")); 
 			session.setAttribute("userName", rs.getString("Username")); 
 			session.setAttribute("userType", rs.getString("Usertype")); 
             session.setAttribute("upicture",rs.getString("userPicture")); 
@@ -51,7 +52,7 @@ pageEncoding="UTF-8"%>
 
             }
             else if (rs.getString("UserType").equals("admin") )  {
-                response.sendRedirect("admin-dashboard.jsp");
+                response.sendRedirect("Admin/admin-dashboard.jsp");
             }
             }
             else

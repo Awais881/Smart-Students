@@ -21,7 +21,7 @@
         top: 80px;
         left: 350px;
         border: none;
-       height: 705px;
+       height: 740px;
        /* height: 100vh; */
     }
     .err{
@@ -100,7 +100,7 @@
   color: #fff;
 }
 .leftBar span{
-  margin-left: 70px;
+  margin-left: 110px;
   color: #007bff;
   cursor: pointer;
 }
@@ -255,13 +255,15 @@ nav {
     flex-direction: column;
   }
 }
-
+span{
+text-align: center;
+}
     </style>
 </head>
 <body>
   <%
   // Cookie cookieobject[]=request.getCookies();
-  String pictname = "../UserImages/"+(String)session.getAttribute("upicture");            //"../UserImages/"+cookieobject[3].getValue();
+  String pictname = "../../UserImages/"+(String)session.getAttribute("upicture");  
 %> 
  
         
@@ -290,8 +292,10 @@ nav {
 
      <div class="leftBar">
     
-        <div><img src="<%=pictname %>'" alt="Profile" class="h4"></div>
-        <span><%=  (String) session.getAttribute("userName")  %></span>
+        <div><img src="<%= pictname %>" alt="Profile" class="h4"></div>
+
+        <span><%=  (String) session.getAttribute("userType")  %></span>
+       
         <ul>
           <li><a href="#">E-Library</a></li>
           <li><a href="#">Calendar</a></li>
