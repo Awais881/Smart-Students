@@ -272,7 +272,7 @@ nav {
             <nav>
               <ul class="menu">
                 <li><a href="./admin-information.jsp" target="content">Dashboard</a></li>
-                <li><a href="./admin-attendence.jsp" target="content">Attendence</a></li>
+                <li><a href="./admin-attendance.jsp" target="content">Attendence</a></li>
                 <li><a href="./mycourse.jsp" target="content"> Course</a></li>
                 <li><a  href="./class.jsp" target="content">ClassSchedule</a></li>
                 <li><a href="./feeChallan.jsp" target="content">FeeChallan</a></li>
@@ -301,7 +301,7 @@ nav {
           <li><a href="#">Notice Board</a></li>
           <li><a href="#">Student Services</a></li>
           <li><a href="#">Grading Criteria</a></li>
-          <li><a href="#">Course Curriculum</a></li>
+          <li><a href="#">Logout</a></li>
         </ul>
       </div> 
     
