@@ -138,7 +138,21 @@ button{
    
   
   }
- 
+ .profile{
+  color: white;
+  font-size: large;
+  margin-left: 22px;
+  float: left;
+  margin-top: 20px;
+ }
+ input[type="file"] {
+  border: none;
+  font-weight: bold;
+   border-radius: 3px;
+    margin-top: 20px;
+    font-size: large;
+    
+}
   </style>
 </head>
 <body>
@@ -168,7 +182,7 @@ button{
          
 
      </div>
-       <div class="user-type">
+       <!-- <div class="user-type">
         <label for="users">Choose user type :</label>
 
         <select id="users" class="select" name="userType">
@@ -178,17 +192,19 @@ button{
         
         </select>
 
-       </div>
+       </div> -->
    <div class="dob">
     <span>DOB :</span>
     <input type="date" name="date" id="" value="14/12/2022">
    </div> 
+   <span class="profile">Profile :</span>
    <input type="file" name="userpict">
+  
     <div class="remember"> 
     <span> <input type="checkbox" name="" id=""> Remember Me</span>
 </div>  
 
-<button type="submit" onsubmit="signup()">SIGNUP</button>
+<button type="submit">SIGNUP</button>
 </form>
      <span><a href="../htmlfiles/login.html"> already have an account? Login here</a></span> <br> <br>
      <span><a href="#"> Forget Password </a></span><br>

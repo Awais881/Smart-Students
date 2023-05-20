@@ -73,7 +73,16 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-
+.absent_present {
+  width: 30;
+ border-radius: 0.25em;
+  padding: 2px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  
+}
   </style>
 </head>
 <body>
@@ -118,7 +127,7 @@ td, th {
                     <td><%= resultSet.getString("Username") %></td>
                     <td><%= resultSet.getString("Grno") %></td>
                     <td>
-                        <select name="status_<%= resultSet.getString("Grno") %>">
+                        <select class="absent_present" name="status_<%= resultSet.getString("Grno") %>" >
                             <option value="Present">Present</option>
                             <option value="Absent">Absent</option>
                         </select>
