@@ -110,9 +110,10 @@ margin-top: -100px;
   <table>
 
     <tr>
-      <td>Father Name</td>
-      <td class="td-left">Nazir Ahmed</td>
-      <td rowspan="10" class="profile-pic">
+  
+        <td>Program</td>
+        <td class="td-left">DAE COMPUTER INFORMATION TECHNOLOGY (M)</td>
+        <td rowspan="10" class="profile-pic">
        
         <img src="<%= pictname %>" alt=""> 
         <form action="../uploadfile.jsp" method="post" enctype="multipart/form-data">
@@ -125,11 +126,7 @@ margin-top: -100px;
      
       
     </tr>
-    <tr>
-      <td>Program</td>
-      <td class="td-left">DAE COMPUTER INFORMATION TECHNOLOGY (M)</td>
-     
-    </tr>
+   
     <tr>
       <td>Batch</td>
       <td class="td-left">CIT-2020-MOR</td>

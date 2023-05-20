@@ -87,7 +87,7 @@
  
 } 
 .leftBar li:hover{
-  background-color: #c9c49b;
+  background-color: #00c78e;
   border-radius: 5px;
   margin-left: 20px;
     transition: 0.5s;
@@ -272,14 +272,13 @@ nav {
             <nav>
               <ul class="menu">
                 <li><a href="./admin-information.jsp" target="content">Dashboard</a></li>
-                <li><a href="./admin-attendance.jsp" target="content">Attendence</a></li>
+                <li><a href="./admin-attendance.jsp" target="content">Add Attendence</a></li>
                 <li><a href="./mycourse.jsp" target="content"> Course</a></li>
-                <li><a  href="./class.jsp" target="content">ClassSchedule</a></li>
-                <li><a href="./feeChallan.jsp" target="content">FeeChallan</a></li>
-                <li><a href="./examSchedule.jsp" target="content">ExamSchedule</a></li>
+                <li><a  href="./class.jsp" target="content"> Add ClassSchedule</a></li>
+              <li><a href="./examSchedule.jsp" target="content">ExamSchedule</a></li>
                 <li><a href="./studyMaterial.jsp" target="content">StudyMaterial</a></li>
                 <li><a  href="./email.jsp" target="content">Email</a></li>
-                <li><a href="./update.jsp" target="content">Updates</a></li>
+                
               </ul>
             </nav>
           </div>
@@ -293,7 +292,7 @@ nav {
         <div><img src="<%= pictname %>" alt="Profile" class="h4"></div>
         <span><%=  (String) session.getAttribute("userType")  %></span>
         <ul>
-          <li><a href="#">E-Library</a></li>
+          <li><a href="./add-admins.jsp" target="content">Create Role </a></li>
           <li><a href="#">Calendar</a></li>
           <li><a href="#">Academic</a></li>
           <li><a href="#">Event</a></li>

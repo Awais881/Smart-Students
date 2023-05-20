@@ -86,11 +86,10 @@ td, th {
             <label for="attendence">Course :</label>
     
             <select id="attendance" class="select" name="subjects">
-                <option value="Islamiat/Pakistan Study">Islamiat/Pakistan Study</option>
-                <option value="Technical Report Writing">Technical Report Writing</option>
+                <option value="Islamiat">Islamiat/Pakistan Study</option>
                 <option value="Management">Management</option>
                 <option value="Networking">Networking</option>
-                <option value="Web Development with Java">Web Development WITH JAVA</option>
+                <option value="WebDevelopmentwithJava">Web Development WITH JAVA</option>
                 <option value="Project">Project</option>
             </select>
           
