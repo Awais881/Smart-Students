@@ -66,6 +66,9 @@ h3{
 .links{
     margin-top: 150px;
 }
+.links a{
+    text-decoration: none;
+}
 .smart-image{
     margin-left: 160px;
     margin-top: 18px;

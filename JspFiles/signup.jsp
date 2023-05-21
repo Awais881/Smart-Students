@@ -17,8 +17,8 @@
 
   Gender=request.getParameter("gender"); 
   Usertype= "student";
-  SimpleDateFormat formater = new SimpleDateFormat("yyyy-mm-dd");
-  java.util.Date util_Dateofbirth = formater.parse( request.getParameter("date") );
+  SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+ java.util.Date util_Dateofbirth = formatter.parse( request.getParameter("date") );
   java.sql.Date Dateofbirth = new java.sql.Date( util_Dateofbirth.getTime() );
   
  try

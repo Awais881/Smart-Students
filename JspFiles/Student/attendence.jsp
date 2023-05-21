@@ -62,6 +62,20 @@ td, th {
   padding: 8px;
 }
 
+iframe{
+  overflow: hidden;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 15px;
+       overflow: hidden;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        /* position: absolute;
+        top: 80px;
+        left: 350px; */
+        border: none;
+       height: 240px;
+       /* height: 100vh; */
+    }
   </style>
 </head>
 <body>
@@ -72,39 +86,39 @@ td, th {
     
         <div class="user-type">
             <label for="attendence">Course :</label>
-    
-            <select id="attendence" class="select" name="subjects">
-              <option value="student" >Islamiat/ Pakistan Study</option>
-              <option value="admin">Technical Report Writting</option>
-              <option value="employee">Management</option>
-              <option value="employee">Networking</option>
-              <option value="employee">Web Development WITH JAVA</option>
-              <option value="employee"> Project</option>
-            </select>
+    <form action="./studentAttendance.jsp">
+      <select id="attendance" class="select" name="subjects">
+        <option value="Islamiat">Islamiat/Pakistan Study</option>
+        <option value="Management">Management</option>
+        <option value="Networking">Networking</option>
+        <option value="WebDevelopmentwithJava">Web Development WITH JAVA</option>
+        <option value="Project">Project</option>
+    </select>
     
           
     </div> <br>
      <hr> <br>
 
-   <div class="flex">
+   <!-- <div class="flex">
     <div>From</div>
     <div><input type="date" name="from-date" id="from-date"></div>
     <div>to : </div>
     <div> <input type="date" name="to-date" id="to-date"></div>
-   </div>
+   </div> -->
   
-     <button>View</button>
+     <button type="submit">View</button>
+    </form>
    
     </div>
     <div>
         <h2>Attendance  </h2>
-        <table>
+        <!-- <table>
             <tr>
                 <th>Date</th>
                 <th>Lecture</th>
                 <th>Status</th>
             </tr>
-        </table>
+        </table> -->
 
     </div>
 </body>

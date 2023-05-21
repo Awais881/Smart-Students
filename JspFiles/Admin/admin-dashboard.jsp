@@ -293,7 +293,7 @@ nav {
         <span><%=  (String) session.getAttribute("userType")  %></span>
         <ul>
           <li><a href="./add-admins.jsp" target="content">Create Role </a></li>
-          <li><a href="#">Calendar</a></li>
+          <li><a href="./showFeedbacks.jsp" target="content">Feedbacks</a></li>
           <li><a href="#">Academic</a></li>
           <li><a href="#">Event</a></li>
           <li><a href="#">Holiday</a></li>

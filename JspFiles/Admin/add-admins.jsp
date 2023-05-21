@@ -22,6 +22,7 @@ body{
  
 }
 .container{
+ 
   max-width: 800px;
   width: 100%;
   background-color: #fff;
