@@ -6,6 +6,7 @@
 <html>
 <head>
     <title>Admin Panel</title>
+  
     <style>
         body {
             font-family: 'Arial', sans-serif;

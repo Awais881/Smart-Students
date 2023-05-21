@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Attendance Success</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;

@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Feedback Submitted Successfully</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.jpg" />
     <style>
         body {
             font-family: 'Arial', sans-serif;
