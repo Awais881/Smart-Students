@@ -44,7 +44,7 @@ text-align: center;
 .profile-pic img {
   width: 200px;
   height: 200px;
-margin-top: -100px;
+/* margin-top: -100px; */
 
 }
 .button-68 {
@@ -117,6 +117,7 @@ margin-top: -100px;
         <td rowspan="10" class="profile-pic">
        
         <img src="<%= pictname %>" alt=""> 
+        <h3><%=  (String) session.getAttribute("userName")  %></h3>
         <form action="../uploadfile.jsp" method="post" enctype="multipart/form-data">
            <input type="file" name="userpict" size=50> 
   <br><br>

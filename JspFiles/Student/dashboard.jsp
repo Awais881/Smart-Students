@@ -1,3 +1,12 @@
+<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+    // Check if the user session exists
+    if (session.getAttribute("uid") == null) {
+        // Redirect to the login page
+        response.sendRedirect("../../htmlfiles/login.html");
+        return; // Stop further execution of the dashboard page
+    }
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +31,7 @@
         top: 80px;
         left: 350px;
         border: none;
-       height: 740px;
+       height: 750px;
        /* height: 100vh; */
     }
     .err{
@@ -40,6 +49,7 @@
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   overflow-y: hidden;
+  height: 750px;
   /* height: 100vh; */
 }
 
@@ -306,7 +316,7 @@ text-align: center;
           <li><a href="#">Notice Board</a></li>
           <li><a href="#">Student Services</a></li>
           <li><a href="#">Grading Criteria</a></li>
-          <li><a href="#">Course Curriculum</a></li>
+          <li><a href="../logout.jsp">Logout</a></li>
         </ul>
       </div> 
     

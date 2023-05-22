@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 21, 2023 at 05:07 PM
+-- Generation Time: May 22, 2023 at 12:55 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -47,7 +47,19 @@ INSERT INTO `attendance_islamiat` (`Grno`, `Date`, `Status`) VALUES
 ('M-6', '2023-05-21', 'Present'),
 ('M-7', '2023-05-21', 'Absent'),
 ('M-9', '2023-05-21', 'Present'),
-('M-10', '2023-05-21', 'Absent');
+('M-10', '2023-05-21', 'Absent'),
+('M-100', '2023-05-22', 'Present'),
+('M-1', '2023-05-22', 'Absent'),
+('M-2', '2023-05-22', 'Present'),
+('M-3', '2023-05-22', 'Present'),
+('M-4', '2023-05-22', 'Present'),
+('M-5', '2023-05-22', 'Present'),
+('M-6', '2023-05-22', 'Present'),
+('M-7', '2023-05-22', 'Present'),
+('M-9', '2023-05-22', 'Present'),
+('M-10', '2023-05-22', 'Present'),
+('M-11', '2023-05-22', 'Present'),
+('M-12', '2023-05-22', 'Present');
 
 -- --------------------------------------------------------
 
@@ -66,16 +78,28 @@ CREATE TABLE `attendance_management` (
 --
 
 INSERT INTO `attendance_management` (`Grno`, `Date`, `Status`) VALUES
-('M-100', '2023-05-21', 'Absent'),
-('M-1', '2023-05-21', 'Present'),
+('M-100', '2023-05-21', 'Present'),
+('M-1', '2023-05-21', 'Absent'),
 ('M-2', '2023-05-21', 'Present'),
 ('M-3', '2023-05-21', 'Present'),
 ('M-4', '2023-05-21', 'Present'),
-('M-5', '2023-05-21', 'Absent'),
+('M-5', '2023-05-21', 'Present'),
 ('M-6', '2023-05-21', 'Present'),
 ('M-7', '2023-05-21', 'Present'),
-('M-9', '2023-05-21', 'Absent'),
-('M-10', '2023-05-21', 'Present');
+('M-9', '2023-05-21', 'Present'),
+('M-10', '2023-05-21', 'Present'),
+('M-100', '2023-05-22', 'Present'),
+('M-1', '2023-05-22', 'Present'),
+('M-2', '2023-05-22', 'Present'),
+('M-3', '2023-05-22', 'Present'),
+('M-4', '2023-05-22', 'Present'),
+('M-5', '2023-05-22', 'Present'),
+('M-6', '2023-05-22', 'Present'),
+('M-7', '2023-05-22', 'Present'),
+('M-9', '2023-05-22', 'Present'),
+('M-10', '2023-05-22', 'Present'),
+('M-11', '2023-05-22', 'Present'),
+('M-12', '2023-05-22', 'Present');
 
 -- --------------------------------------------------------
 
@@ -103,7 +127,18 @@ INSERT INTO `attendance_networking` (`Grno`, `Date`, `Status`) VALUES
 ('M-6', '2023-05-21', 'Present'),
 ('M-7', '2023-05-21', 'Absent'),
 ('M-9', '2023-05-21', 'Present'),
-('M-10', '2023-05-21', 'Present');
+('M-10', '2023-05-21', 'Present'),
+('M-100', '2023-05-22', 'Absent'),
+('M-1', '2023-05-22', 'Present'),
+('M-2', '2023-05-22', 'Absent'),
+('M-3', '2023-05-22', 'Present'),
+('M-4', '2023-05-22', 'Absent'),
+('M-5', '2023-05-22', 'Present'),
+('M-6', '2023-05-22', 'Present'),
+('M-7', '2023-05-22', 'Present'),
+('M-9', '2023-05-22', 'Present'),
+('M-10', '2023-05-22', 'Present'),
+('M-11', '2023-05-22', 'Absent');
 
 -- --------------------------------------------------------
 
@@ -131,7 +166,18 @@ INSERT INTO `attendance_project` (`Grno`, `Date`, `Status`) VALUES
 ('M-6', '2023-05-21', 'Present'),
 ('M-7', '2023-05-21', 'Absent'),
 ('M-9', '2023-05-21', 'Present'),
-('M-10', '2023-05-21', 'Absent');
+('M-10', '2023-05-21', 'Absent'),
+('M-100', '2023-05-22', 'Present'),
+('M-1', '2023-05-22', 'Present'),
+('M-2', '2023-05-22', 'Absent'),
+('M-3', '2023-05-22', 'Present'),
+('M-4', '2023-05-22', 'Present'),
+('M-5', '2023-05-22', 'Present'),
+('M-6', '2023-05-22', 'Present'),
+('M-7', '2023-05-22', 'Absent'),
+('M-9', '2023-05-22', 'Present'),
+('M-10', '2023-05-22', 'Present'),
+('M-11', '2023-05-22', 'Present');
 
 -- --------------------------------------------------------
 
@@ -159,7 +205,18 @@ INSERT INTO `attendance_webdevelopmentwithjava` (`Grno`, `Date`, `Status`) VALUE
 ('M-6', '2023-05-21', 'Present'),
 ('M-7', '2023-05-21', 'Present'),
 ('M-9', '2023-05-21', 'Absent'),
-('M-10', '2023-05-21', 'Present');
+('M-10', '2023-05-21', 'Present'),
+('M-100', '2023-05-22', 'Absent'),
+('M-1', '2023-05-22', 'Present'),
+('M-2', '2023-05-22', 'Absent'),
+('M-3', '2023-05-22', 'Present'),
+('M-4', '2023-05-22', 'Absent'),
+('M-5', '2023-05-22', 'Present'),
+('M-6', '2023-05-22', 'Present'),
+('M-7', '2023-05-22', 'Present'),
+('M-9', '2023-05-22', 'Present'),
+('M-10', '2023-05-22', 'Present'),
+('M-11', '2023-05-22', 'Present');
 
 -- --------------------------------------------------------
 
@@ -182,9 +239,8 @@ INSERT INTO `feedbacks` (`Date`, `Name`, `Email`, `Message`) VALUES
 ('2023-05-21', 'Awais', 'awais@gmail.com', 'Hello This website is good'),
 ('2023-05-21', 'Awais', 'awais@gmail.com', 'Hello This website is good'),
 ('2023-05-21', 'Awais', 'awais@gmail.com', 'Hello I am Awais '),
-('2023-05-21', 'Awais', 'gfdgdfgdfggfdg2ff@gfds.vh', 'htgfhfghgfhfg       gfgdfgfdgfdgdfgfdg gfdgfdgffdf'),
-('2023-05-21', 'ADS', 'awais@gmail.com', 'mart Campuses is a Finland based Software Company, providing Best\r\nAcademic And Learning Management Solution for Schools, Colleges,\r\nInstitutes and Universites.We integrated communication tools encourage\r\ninteractions between faculty, students, built-in parents, student Portals and\r\nMobile App keep families informed and involved'),
-('2023-05-21', 'Awais', 'awais@gmail.com', 'Hello I am Awais');
+('2023-05-21', 'Awais', 'awais@gmail.com', 'Hello I am Awais'),
+('2023-05-21', 'Ali Ahmed', 'ali@gmail.com', 'Hello This is Dummy Messgae');
 
 -- --------------------------------------------------------
 
@@ -209,7 +265,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`Grno`, `Username`, `Email`, `DateofBirth`, `Gender`, `Usertype`, `password`, `userPicture`) VALUES
 ('M-100', 'Muhammad Awais', 'awais@gmail.com', '2003-01-09', 'Male', 'admin', '12345', '342985297_634262595189344_8086664461572818917_n.jpg'),
-('M-1', 'Muhammad Taha', 'taha@gmail.com', '2020-01-21', 'Male', 'student', '12345', ''),
+('M-1', 'Muhammad Taha', 'taha@gmail.com', '2020-01-21', 'Male', 'student', '12345', '223280417_4907455159332187_7874489705443040029_n.jpg'),
 ('M-2', 'Hassan ', 'hassan@gmail.com', '2004-01-12', 'Male', 'student', '12345', ''),
 ('M-3', 'Fahad', 'fahad@gmail.com', '2019-01-23', 'Male', 'student', '12345', ''),
 ('M-4', 'Burhan', 'burhan@gmail.com', '2023-01-23', 'Male', 'student', '12345', ''),
@@ -217,7 +273,9 @@ INSERT INTO `users` (`Grno`, `Username`, `Email`, `DateofBirth`, `Gender`, `User
 ('M-6', 'Ali ', 'ali@gmail.com', '2023-01-01', 'Male', 'student', 'abc123', ''),
 ('M-7', 'Ahmed', 'ahmed@gmail.com', '2023-01-03', 'Male', 'student', '12345', ''),
 ('M-9', 'Zain Ali', 'ZAIN@GMAIL.COM', '2023-01-10', 'Male', 'student', '123', ''),
-('M-10', 'Bilal Ahmed', 'bilal@gmail.com', '2023-01-18', 'Male', 'student', 'ilal123', '');
+('M-10', 'Bilal Ahmed', 'bilal@gmail.com', '2023-01-18', 'Male', 'student', 'ilal123', ''),
+('M-11', 'Zain', 'zain@gmail.com', '2023-01-21', 'Male', 'student', '12345', ''),
+('M-12', 'Faizan', 'faizan@gmail.com', '2023-01-02', 'Male', 'student', '1000', '');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -1,3 +1,12 @@
+<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+    // Check if the user session exists
+    if (session.getAttribute("uid") == null) {
+        // Redirect to the login page
+        response.sendRedirect("../../htmlfiles/login.html");
+        return; // Stop further execution of the dashboard page
+    }
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +31,7 @@
         top: 80px;
         left: 350px;
         border: none;
-       height: 740px;
+       height: 750px;
        /* height: 100vh; */
     }
     .err{
@@ -33,7 +42,7 @@
       .leftBar { 
        
    background-color: #fff;
-  
+   height: 750px;
   width: 25%;
   margin-left: 5px;
   margin-top: 80px;
@@ -274,11 +283,11 @@ nav {
               <ul class="menu">
                 <li><a href="./admin-information.jsp" target="content">Dashboard</a></li>
                 <li><a href="./admin-attendance.jsp" target="content">Add Attendence</a></li>
-                <li><a href="./mycourse.jsp" target="content"> Course</a></li>
-                <li><a  href="./class.jsp" target="content"> Add ClassSchedule</a></li>
-              <li><a href="./examSchedule.jsp" target="content">ExamSchedule</a></li>
-                <li><a href="./studyMaterial.jsp" target="content">StudyMaterial</a></li>
-                <li><a  href="./email.jsp" target="content">Email</a></li>
+                <li><a href="./admin-course.jsp" target="content"> Course</a></li>
+                <li><a  href="./admin-class.jsp" target="content"> Add ClassSchedule</a></li>
+              <li><a href="./admin-examSchedule.jsp" target="content">ExamSchedule</a></li>
+                <li><a href="./admin-studyMaterial.jsp" target="content">StudyMaterial</a></li>
+                <li><a  href="../logout.jsp" >Logout</a></li>
                 
               </ul>
             </nav>
