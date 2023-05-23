@@ -15,7 +15,7 @@
     id = (String) session.getAttribute("uid");
     out.println("<h2>User ID First: " + id + "</h2>");
 
-    String filePath = "c:/xampp/tomcat/webapps/SmartCampus/UserImages/";
+    String filePath = "c:/xampp/tomcat/webapps/Smart-Students/UserImages/";
 
     String contentType = request.getContentType();
     out.print("<h2>" + contentType + "<h2>");
