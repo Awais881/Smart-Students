@@ -282,9 +282,9 @@ nav {
             <nav>
               <ul class="menu">
                 <li><a href="./admin-information.jsp" target="content">Dashboard</a></li>
-                <li><a href="./admin-attendance.jsp" target="content">Add Attendence</a></li>
+                <li><a href="./admin-attendance.jsp" target="content">Attendence</a></li>
                 <li><a href="./admin-course.jsp" target="content"> Course</a></li>
-                <li><a  href="./admin-class.jsp" target="content"> Add ClassSchedule</a></li>
+                <li><a  href="./admin-class.jsp" target="content">  Class</a></li>
               <li><a href="./admin-examSchedule.jsp" target="content">ExamSchedule</a></li>
                 <li><a href="./admin-studyMaterial.jsp" target="content">StudyMaterial</a></li>
                 <li><a  href="../logout.jsp" >Logout</a></li>
