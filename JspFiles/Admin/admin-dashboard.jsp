@@ -286,7 +286,7 @@ nav {
                 <li><a href="./admin-course.jsp" target="content"> Course</a></li>
                 <li><a  href="./admin-class.jsp" target="content">  Class</a></li>
               <li><a href="./admin-examSchedule.jsp" target="content">ExamSchedule</a></li>
-                <li><a href="./admin-studyMaterial.jsp" target="content">StudyMaterial</a></li>
+                <li><a href="./admin-notice.jsp" target="content">Notice</a></li>
                 <li><a  href="../logout.jsp" >Logout</a></li>
                 
               </ul>
@@ -307,7 +307,7 @@ nav {
           <li><a href="#">Academic</a></li>
           <li><a href="#">Event</a></li>
           <li><a href="#">Holiday</a></li>
-          <li><a href="#">Notice Board</a></li>
+          <li><a href="./admin-studyMaterial.jsp" target="content">Study Material</a></li>
           <li><a href="#">Student Services</a></li>
           <li><a href="#">Grading Criteria</a></li>
           <li><a href="#">Logout</a></li>

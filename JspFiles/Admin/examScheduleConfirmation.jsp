@@ -44,9 +44,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>Course  Added Successfully</h1>
+        <h1>Exam Schedules  Added Successfully</h1>
         <!-- <p>Role for the selected Usertype has been recorded successfully.</p> -->
-        <a href="./admin-course.jsp" class="btn">Add More</a>
+        <a href="./admin-examSchedule.jsp" class="btn">Add More</a>
     </div>
 </body>
 </html>
