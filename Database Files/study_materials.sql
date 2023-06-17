@@ -24,27 +24,35 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `feedbacks`
+-- Table structure for table `study_materials`
 --
 
-CREATE TABLE `feedbacks` (
-  `Date` date NOT NULL,
-  `Name` text NOT NULL,
-  `Email` text NOT NULL,
-  `Message` text NOT NULL
+CREATE TABLE `study_materials` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `file_name` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `feedbacks`
+-- Indexes for dumped tables
 --
 
-INSERT INTO `feedbacks` (`Date`, `Name`, `Email`, `Message`) VALUES
-('2023-05-21', 'Awais', 'awais@gmail.com', 'Hello This website is good'),
-('2023-05-21', 'Awais', 'awais@gmail.com', 'Hello This website is good'),
-('2023-05-21', 'Awais', 'awais@gmail.com', 'Hello I am Awais '),
-('2023-05-21', 'Awais', 'awais@gmail.com', 'Hello I am Awais'),
-('2023-05-21', 'Ali Ahmed', 'ali@gmail.com', 'Hello This is Dummy Messgae'),
-('2023-05-22', 'Mustafa', 'mustafa@gmail.com', 'this Website is University Portal');
+--
+-- Indexes for table `study_materials`
+--
+ALTER TABLE `study_materials`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `study_materials`
+--
+ALTER TABLE `study_materials`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

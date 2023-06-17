@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 22, 2023 at 10:45 PM
+-- Generation Time: Jun 17, 2023 at 11:34 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -58,7 +58,33 @@ INSERT INTO `attendance_project` (`Grno`, `Date`, `Status`) VALUES
 ('M-7', '2023-05-22', 'Absent'),
 ('M-9', '2023-05-22', 'Present'),
 ('M-10', '2023-05-22', 'Present'),
-('M-11', '2023-05-22', 'Present');
+('M-11', '2023-05-22', 'Present'),
+('M-100', '2023-05-24', 'Present'),
+('M-1', '2023-05-24', 'Present'),
+('M-2', '2023-05-24', 'Absent'),
+('M-3', '2023-05-24', 'Present'),
+('M-4', '2023-05-24', 'Present'),
+('M-5', '2023-05-24', 'Present'),
+('M-6', '2023-05-24', 'Present'),
+('M-7', '2023-05-24', 'Present'),
+('M-9', '2023-05-24', 'Present'),
+('M-10', '2023-05-24', 'Present'),
+('M-11', '2023-05-24', 'Present'),
+('M-12', '2023-05-24', 'Present'),
+('M-13', '2023-05-24', 'Present'),
+('M-100', '2023-06-03', 'Present'),
+('M-1', '2023-06-03', 'Absent'),
+('M-2', '2023-06-03', 'Present'),
+('M-3', '2023-06-03', 'Present'),
+('M-4', '2023-06-03', 'Present'),
+('M-5', '2023-06-03', 'Present'),
+('M-6', '2023-06-03', 'Present'),
+('M-7', '2023-06-03', 'Present'),
+('M-9', '2023-06-03', 'Absent'),
+('M-10', '2023-06-03', 'Present'),
+('M-11', '2023-06-03', 'Absent'),
+('M-12', '2023-06-03', 'Present'),
+('M-13', '2023-06-03', 'Present');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
