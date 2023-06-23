@@ -91,24 +91,33 @@
   display: block;
   transition: color 0.2s ease-in-out;
 }
-
- .leftBar li a:hover {
-  color: #007bff;
- 
-} 
-.leftBar li:hover{
+.leftBar li:active {
   background-color: #00c78e;
   border-radius: 5px;
   margin-left: 20px;
     transition: 0.5s;
 }
-.leftBar li.active {
-  background-color: #007bff;
+.active{
+  background-color: #00c78e;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  height: 50px;
+    
 }
+ .leftBar li a:hover {
+  color: #007bff;
+ 
+} 
+/* .leftBar li:hover{
+  background-color: #00c78e;
+  border-radius: 5px;
+  margin-left: 20px;
+    transition: 0.5s;
+} */
 
-.leftBar li.active a {
-  color: #fff;
-}
+
+
 .leftBar span{
   margin-left: 110px;
   color: #007bff;
@@ -302,15 +311,15 @@ nav {
         <div><img src="<%= pictname %>" alt="Profile" class="h4"></div>
         <span><%=  (String) session.getAttribute("userType")  %></span>
         <ul>
-          <li><a href="./add-admins.jsp" target="content">Create Role </a></li>
-          <li><a href="./showFeedbacks.jsp" target="content">Feedbacks</a></li>
-          <li><a href="#">Academic</a></li>
-          <li><a href="#">Event</a></li>
-          <li><a href="#">Holiday</a></li>
-          <li><a href="./admin-studyMaterial.jsp" target="content">Study Material</a></li>
-          <li><a href="#">Student Services</a></li>
-          <li><a href="#">Grading Criteria</a></li>
-          <li><a href="#">Logout</a></li>
+          <li><a  class="clickable-anchor" href="./add-admins.jsp" target="content">Create Role </a></li>
+          <li><a  class="clickable-anchor" href="./showFeedbacks.jsp" target="content">Feedbacks</a></li>
+          <li><a  class="clickable-anchor" href="#">Academic</a></li>
+          <li><a  class="clickable-anchor" href="#">Event</a></li>
+          <li><a  class="clickable-anchor" href="#">Holiday</a></li>
+          <li><a  class="clickable-anchor" href="./admin-studyMaterial.jsp" target="content">Study Material</a></li>
+          <li><a  class="clickable-anchor" href="#">Student Services</a></li>
+          <li><a  class="clickable-anchor" href="#">Grading Criteria</a></li>
+          <li><a  class="clickable-anchor" href="#">Logout</a></li>
         </ul>
       </div> 
     
@@ -322,6 +331,23 @@ nav {
 
     </iframe>
 </center> 
+<script>
+var anchors = document.getElementsByClassName("clickable-anchor");
 
+for (var i = 0; i < anchors.length; i++) {
+  anchors[i].addEventListener("click", function() {
+    // Remove "active" class from all anchors
+    for (var j = 0; j < anchors.length; j++) {
+      anchors[j].classList.remove("active");
+    }
+    
+    // Add "active" class to the clicked anchor
+    this.classList.add("active");
+  });
+}
+
+
+
+</script>
 </body>
 </html>

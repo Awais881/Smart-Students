@@ -68,18 +68,19 @@ h3{
 }
 .links{
     margin-top: 150px;
+    margin-left: 50px;
 }
 .links a{
     text-decoration: none;
 }
 .smart-image{
-    margin-left: 160px;
+    margin-left: 110px;
     margin-top: 18px;
     
     margin-bottom: 30px;
 }
 .smart-campus{
-    margin-left: 100px;
+    margin-left: 60px;
     width: 300px;
     margin-bottom: 10px;
 }
@@ -98,7 +99,8 @@ li{
     cursor: pointer;
 }
 .logo > p> .locate{
-    width: 25px;
+    width: 55px;
+    margin-top: 20px;
   
 }
 .footer{
