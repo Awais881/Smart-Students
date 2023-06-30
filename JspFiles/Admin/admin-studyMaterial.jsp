@@ -86,3 +86,35 @@
   </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Add Study Material</title>
+</head>
+<body>
+  <h1>Add Study Material</h1>
+  <form action="./addStudyMaterial.jsp" method="post" enctype="multipart/form-data">
+    <label for="title">Title:</label>
+    <input type="text" name="title" required><br><br>
+    <label for="description">Description:</label>
+    <textarea name="description" required></textarea><br><br>
+    <label for="file">File:</label>
+    <input type="file" name="file" required><br><br>
+    <input type="submit" value="Add Study Material">
+  </form>
+</body>
+</html> -->

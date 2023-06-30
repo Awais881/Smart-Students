@@ -292,7 +292,7 @@ nav {
               <ul class="menu">
                 <li><a href="./admin-information.jsp" target="content">Dashboard</a></li>
                 <li><a href="./admin-attendance.jsp" target="content">Attendence</a></li>
-                <li><a href="./admin-course.jsp" target="content"> Course</a></li>
+                <!-- <li><a href="./admin-course.jsp" target="content"> Course</a></li> -->
                 <li><a  href="./admin-class.jsp" target="content">  Class</a></li>
               <li><a href="./admin-examSchedule.jsp" target="content">ExamSchedule</a></li>
                 <li><a href="./admin-notice.jsp" target="content">Notice</a></li>
@@ -313,13 +313,12 @@ nav {
         <ul>
           <li><a  class="clickable-anchor" href="./add-admins.jsp" target="content">Create Role </a></li>
           <li><a  class="clickable-anchor" href="./showFeedbacks.jsp" target="content">Feedbacks</a></li>
-          <li><a  class="clickable-anchor" href="#">Academic</a></li>
-          <li><a  class="clickable-anchor" href="#">Event</a></li>
-          <li><a  class="clickable-anchor" href="#">Holiday</a></li>
+          <li><a  class="clickable-anchor" href="./admin-notice.jsp" target="content">Event</a></li>
           <li><a  class="clickable-anchor" href="./admin-studyMaterial.jsp" target="content">Study Material</a></li>
-          <li><a  class="clickable-anchor" href="#">Student Services</a></li>
-          <li><a  class="clickable-anchor" href="#">Grading Criteria</a></li>
-          <li><a  class="clickable-anchor" href="#">Logout</a></li>
+          <li><a  class="clickable-anchor" href="#">Academic</a></li>
+          <li><a  class="clickable-anchor" href="#">Holiday</a></li>
+         
+         
         </ul>
       </div> 
     

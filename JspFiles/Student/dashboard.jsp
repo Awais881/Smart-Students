@@ -290,9 +290,9 @@ text-align: center;
                 <li><a  href="./class.jsp" target="content">ClassSchedule</a></li>
                 <!-- <li><a href="./feeChallan.jsp" target="content">FeeChallan</a></li> -->
                 <li><a href="./examSchedule.jsp" target="content">ExamSchedule</a></li>
-                <li><a href="./notice.jsp" target="content">Notices</a></li>
-                <li><a  href="./email.jsp" target="content">Email</a></li>
-                <li><a href="./update.jsp" target="content">Updates</a></li>
+      
+                <!-- <li><a  href="./email.jsp" target="content">Email</a></li> -->
+                <!-- <li><a href="./update.jsp" target="content">Updates</a></li> -->
               </ul>
             </nav>
           </div>
@@ -308,12 +308,11 @@ text-align: center;
         <span><%=  (String) session.getAttribute("userType")  %></span>
        
         <ul>
+          <li><a href="./notice.jsp" target="content">Notices</a></li>
           <li><a href="#">E-Library</a></li>
           <li><a href="#">Calendar</a></li>
           <li><a href="#">Academic</a></li>
-          <li><a href="#">Event</a></li>
           <li><a href="#">Holiday</a></li>
-          <li><a href="#">Notice Board</a></li>
           <li><a href="#">Student Services</a></li>
           <li><a href="#">Grading Criteria</a></li>
           <li><a href="../logout.jsp">Logout</a></li>
