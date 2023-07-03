@@ -310,7 +310,7 @@ text-align: center;
         <ul>
           <li><a href="./notice.jsp" target="content">Notices</a></li>
           <li><a href="./holiday.jsp" target="content">Holiday</a></li>
-          <li><a href="#">E-Library</a></li>
+          <li><a href="./quiz.jsp" target="content">Quiz</a></li>
           <li><a href="#">Calendar</a></li>
           <li><a href="#">Academic</a></li>
           <li><a href="#">Student Services</a></li>

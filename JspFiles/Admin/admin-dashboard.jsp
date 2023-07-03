@@ -315,7 +315,7 @@ nav {
           <li><a  class="clickable-anchor" href="./showFeedbacks.jsp" target="content">Feedbacks</a></li>
           <li><a  class="clickable-anchor" href="./admin-notice.jsp" target="content">Event</a></li>
           <li><a  class="clickable-anchor" href="./admin-studyMaterial.jsp" target="content">Study Material</a></li>
-          <li><a  class="clickable-anchor" href="./admin-holiday.jsp"  target="content">Academic</a></li>
+          <li><a  class="clickable-anchor" href="./admin-acadmic.jsp"  target="content">Academic</a></li>
           <li><a  class="clickable-anchor" href="./admin-holiday.jsp"  target="content">Holiday</a></li>
          
          
