@@ -14,6 +14,8 @@
 
         int quizId = Integer.parseInt(request.getParameter("quizId"));
         String selectedAnswer = request.getParameter("answer");
+        
+       
 
         Connection conn = null;
         PreparedStatement stmt = null;
@@ -43,8 +45,8 @@
                 stmt.setString(4, correctAnswer);
                 stmt.executeUpdate();
             }
-
-            out.println("Quiz Completed.");
+           
+            response.sendRedirect("quizSuccess.jsp");
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
