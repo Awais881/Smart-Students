@@ -112,7 +112,7 @@ img{
         // Redirect to index.html after a short delay
         setTimeout(function() {
             window.location.href = "../htmlfiles/login.html";
-        }, 2000); // 2000 milliseconds = 2 seconds
+        }, 1000); // 2000 milliseconds = 2 seconds
     </script>
 </head>
 
