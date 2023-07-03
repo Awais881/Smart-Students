@@ -54,10 +54,10 @@
                     out.println("<form method=\"post\" action=\"QuizResult.jsp\">");
                     out.println("<input type=\"hidden\" name=\"quizId\" value=\"" + quizId + "\">");
                     out.println("<input type=\"hidden\" name=\"questionNumber\" value=\"" + questionNumber + "\">");
-                    out.println("<input type=\"radio\" name=\"answer\" value=\"" + option1 + "\">" + option1 + "<br>");
-                    out.println("<input type=\"radio\" name=\"answer\" value=\"" + option2 + "\">" + option2 + "<br>");
-                    out.println("<input type=\"radio\" name=\"answer\" value=\"" + option3 + "\">" + option3 + "<br>");
-                    out.println("<input type=\"radio\" name=\"answer\" value=\"" + option4 + "\">" + option4 + "<br>");
+                    out.println("<input type=\"checkbox\" name=\"answer\" value=\"" + option1 + "\">" + option1 + "<br>");
+                    out.println("<input type=\"checkbox\" name=\"answer\" value=\"" + option2 + "\">" + option2 + "<br>");
+                    out.println("<input type=\"checkbox\" name=\"answer\" value=\"" + option3 + "\">" + option3 + "<br>");
+                    out.println("<input type=\"checkbox\" name=\"answer\" value=\"" + option4 + "\">" + option4 + "<br>");
                     out.println("<hr>");
                 }
                 out.println("<input type=\"submit\" value=\"Submit Answer\">");
